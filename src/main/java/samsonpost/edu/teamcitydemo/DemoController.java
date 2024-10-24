@@ -13,4 +13,9 @@ public class DemoController {
     public String returnHelloWorld() {
         return "Hello World!";
     }
+
+    @GetMapping("/goodbye")
+    public String returnGoodByeHuman(){
+        return "Good Bye Human!";
+    }
 }
